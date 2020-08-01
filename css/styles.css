@@ -1,6 +1,9 @@
-html{
-  background:url(/mahyar-motebassem-pGA4zHvpo5E-unsplash.jpg) no-repeat center fixed;
+body{
+  background-image:url('../mahyar-motebassem-pGA4zHvpo5E-unsplash.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color:gray ;
 }
 .container{
   background-color: rgba(225, 225, 225,0.6);
