@@ -1,0 +1,10 @@
+html{
+  background:url(/mahyar-motebassem-pGA4zHvpo5E-unsplash.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+.container{
+  background-color: rgba(225, 225, 225,0.6);
+  padding: 0px 50px 50px 50px;
+  margin-bottom: 75px;
+  box-shadow: 0 3px 2px -2px gray;
+}
