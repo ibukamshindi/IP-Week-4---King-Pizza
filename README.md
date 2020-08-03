@@ -22,7 +22,8 @@ At the moment there are no known issues.
 The project made use of Javascript prototypes and constructors.
 ## Support and contact details
 If you want to contact me reach me at 123@gmail.com
-## Link to live site: https://ibukamshindi.github.io/IP-Week-4---King-Pizza/
+## Link to live site: 
+https://ibukamshindi.github.io/IP-Week-4---King-Pizza/
 ## License
 ### MIT License Copyright (c) 2020 Ibukamshindi
 Permission is hereby granted, free of charge, to any person obtaining a copy
