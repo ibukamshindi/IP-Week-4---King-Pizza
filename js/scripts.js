@@ -1,13 +1,41 @@
-var price, crust_price, topping_price ;
-let total=0;
-function eatpizza(size,crust,topping,total){
+
+function Pizza(size,crust,cheese,mushrooms,delivery){
   this.size = size;
   this.crust = crust;
-  this.topping = topping;
-  this.total = total;
+  this.cheeseTopping = cheese;
+  this.mushroomsTopping = mushrooms;
+  this.delivery = delivery
+  this.cost;
 }
-  $(document).ready(function(){
-    $("submit.Checkout").click(function(event){
-      let
 
-  });
+Pizza.getCost= function() {
+  if (this.size==="small"){
+    this.cost = 450;
+  } else if (this.size==="medium"){
+    this.cost=650;
+  } else if (this.size==="large"){
+    this.cost = 950;
+  }
+  if (this.crust==="Hand tossed"){
+    this.cost += 100;
+  } else if (this.crust==="Thin Crunchy"){
+    this.cost += 50;
+  }  
+  for (var i=0; i<this.cheeseTopping.length; i++){
+    this.cost +=30;
+  }
+  for (var i=0; i<this.mushroomsTopping.length; i++){
+    this.cost +=20;
+  }
+  return this.cost;
+}
+
+$(document).ready(function(){
+  $("#pizza-form").submit(function(event){
+    event.preventDefault();
+    $("#pizza-options").hide();
+    var inputtedSize = $("select#size").val()
+    var inputtedCrust = $()
+  }
+
+});

@@ -21,29 +21,37 @@
       <div class="row">
         <div class="col-md-8">
           <h1>Order your King</h1>
-          <form>
-            <div class="formgrp">
+          <div id="pizza-opt">
+            <form id="pizza-form">
               <h2>Size</h2>
-              <input type="radio" id="small" name="size" value="small" />
+              <select id="size">
+                <option value="small">Small 450</option>
+                <option value="medium">Medium 650</option>
+                <option value="large">Large 950</option>
+              </select><br/>
+              <!-- <input type="radio" id="small" name="size" value="small" />
               <label for="small">Small 450</label><br />
               <input type="radio" id="Medium" name="size" value="Medium" />
               <label for="medium">Medium 650</label><br />
               <input type="radio" id="large" name="size" value="Large" />
-              <label for="large">Large 950</label><br />
-            </div>
-            <div class="formgrp">
+              <label for="large">Large 950</label><br /> -->
+              <br/>
               <h3>please choose a crust</h3>
               <p>
                 You can choose between the thin crunchy crust or if you prefer
                 the touch of speciality, the hand tossed, rolled and tossed by
                 our chefs at King Pizziera.
               </p>
-              <input type="radio" id="small" name="size" value="small" />
-              <label for="small">Hand tossed 100</label><br />
-              <input type="radio" id="Medium" name="size" value="Medium" />
-              <label for="medium">Thin crunchy 50</label><br />
-            </div>
-            <div class="formgrp">
+              <select id="crust">
+                <option value="hand tossed">Hand tossed 100</option>
+                <option value="medium">Thin crunchy 50</option>
+              </select><br/>
+              <!-- <div id="">
+                <input type="radio" id="small" name="size" value="small" />
+                <label for="small">Hand tossed 100</label><br />
+                <input type="radio" id="Medium" name="size" value="Medium" />
+                <label for="medium">Thin crunchy 50</label><br />
+              </div> -->
               <h4>Toppings</h4>
               <input
                 type="checkbox"
@@ -60,13 +68,12 @@
               />
               <label for="toppings"> extramushrooms</label><br />
               <input type="submit" value="Check out" />
-            </div>
-          </form>
-        </div>
-        <div class="col-md-3 result">
-          <h5>Order Details</h5>
-          
-
+            </form>
+          </div>
+          <div id = "final-msg">
+            <h3>Thank you for ordering your King</h3>
+            <p class="cost"></p>
+          </div>
         </div>
       </div>
     </div>
