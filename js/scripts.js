@@ -7,7 +7,7 @@ function Pizza (size,crust,meat,veg){
   this.cost;
 }
 
-Pizza.getCost= function() {
+Pizza.prototype.getCost= function() {
   if (this.size ==="small"){
     this.cost = 450;
   } else if (this.size==="medium"){
@@ -37,18 +37,19 @@ $(document).ready(function(){
     var inputtedCrust = $("select#crust").val();
     var inputtedMeat = [];
     var inputtedVeg = [];
-    $("input[name ='meat']:checked").each(function){
+    $("input[name ='meat']:checked").each(function(){
       var topping =$(this).val();
       inputtedMeat.push(topping);
     });
-    $("input[name = 'veg']checked").each(function)(){
+    $("input[name = 'veg']checked").each(function(){
       var topping =$(this).val();
       inputtedVeg.push(topping);
     });
 
     var yourPizza= new Pizza(inputtedSize,inputtedCrust,inputtedMeat,inputtedVeg);
     console.log(yourPizza);
+
     $("#final-msg").show();
-    $(".cost").text("This is your cost:"+yourPizza.getCost());
+    $(".cost").text("This is your cost:"+ yourPizza.getCost());
   });
 });

@@ -18,48 +18,65 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-6">
           <h1>Order your King</h1>
           <div id="pizza-options">
             <form id="pizza-form">
               <h2>Size</h2>
               <select id="size">
-                <option value="small">Small </option>
-                <option value="medium">Medium </option>
-                <option value="large">Large </option> </select
+                <option value="small">Small @450</option>
+                <option value="medium">Medium @650</option>
+                <option value="large">Large @950</option> </select
               ><br />
-              <!-- <input type="radio" id="small" name="size" value="small" />
-              <label for="small">Small 450</label><br />
-              <input type="radio" id="Medium" name="size" value="Medium" />
-              <label for="medium">Medium 650</label><br />
-              <input type="radio" id="large" name="size" value="Large" />
-              <label for="large">Large 950</label><br /> -->
               <br />
               <h3>please choose a crust</h3>
               <p>
-                You can choose between the thin crunchy crust or if you prefer
-                the touch of speciality, the hand tossed, rolled and tossed by
-                our chefs at King Pizziera.
+                You can choose between the thin crunchy crust @50 or if you
+                prefer the touch of speciality, the hand tossed @100, rolled and
+                tossed by our chefs at King Pizziera.
               </p>
               <select id="crust">
                 <option value="hand tossed">Hand tossed </option>
                 <option value="medium">Thin crunchy </option> </select
               ><br />
-              <!-- <div id="">
-                <input type="radio" id="small" name="size" value="small" />
-                <label for="small">Hand tossed 100</label><br />
-                <input type="radio" id="Medium" name="size" value="Medium" />
-                <label for="medium">Thin crunchy 50</label><br />
-              </div> -->
-                  <h4>Toppings</h4>
-                  <p>The meat extras come at price of 30 each while for the Vegeterian at 20 each </p>
-                  <input type="checkbox" id="meat" name="meat" value="chicken">chicken<br />
-                  <input type="checkbox" id="meat" name="meat" value="ham"> ham<br />
-                  <input type="checkbox" id="meat" name="meat" value="beef"> beef<br />
-                  <input type="checkbox" id="veg" name="veg" value="mushrooms">mushrooms<br />
-                  <input type="checkbox" id="veg" name="veg" value="olives">olives<br />
-                  <input type="checkbox" id="veg" name="veg" value="onions">onions<br />
-                  <input type="submit" value="Check out" />
+              <h4>Toppings</h4>
+              <p>
+                The meat extras come at price of Kes 30 each while for the
+                Vegeterian at Kes 20 each
+              </p>
+              <div>
+                <input
+                  type="checkbox"
+                  id="meat"
+                  name="meat"
+                  value="chicken"
+                />chicken<br />
+                <input type="checkbox" id="meat" name="meat" value="ham" />
+                ham<br />
+                <input type="checkbox" id="meat" name="meat" value="beef" />
+                beef<br />
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="veg"
+                  name="veg"
+                  value="mushrooms"
+                />mushrooms<br />
+                <input
+                  type="checkbox"
+                  id="veg"
+                  name="veg"
+                  value="olives"
+                />olives<br />
+                <input
+                  type="checkbox"
+                  id="veg"
+                  name="veg"
+                  value="onions"
+                />onions<br />
+              </div>
+              <input type="submit" value="Check out" />
             </form>
           </div>
           <div id="final-msg">
@@ -69,7 +86,6 @@
         </div>
       </div>
     </div>
-
     <script src="" async defer></script>
   </body>
 </html>

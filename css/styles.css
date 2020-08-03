@@ -2,7 +2,7 @@ body{
   background-image:url('../mahyar-motebassem-pGA4zHvpo5E-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-color:gray ;
 }
 .container{
@@ -13,4 +13,11 @@ body{
 }
 #final-msg{
   display: none;
+}
+h1{
+  text-align: center;
+  padding: 15px;
+  margin:0px -600px 10px -00px;
+  box-shadow: 0 3px 2px -2px gray;
+  font-family: Arial, Helvetica, sans-serif;
 }
