@@ -2,8 +2,8 @@
 function Pizza(size,crust,cheese,mushrooms,delivery){
   this.size = size;
   this.crust = crust;
-  this.cheeseTopping = cheese;
-  this.mushroomsTopping = mushrooms;
+  this.meatTopping = meat;
+  this.vegTopping = veg;
   this.delivery = delivery
   this.cost;
 }
@@ -21,10 +21,10 @@ Pizza.getCost= function() {
   } else if (this.crust==="Thin Crunchy"){
     this.cost += 50;
   }  
-  for (var i=0; i<this.cheeseTopping.length; i++){
+  for (var i=0; i<this.meatTopping.length; i++){
     this.cost +=30;
   }
-  for (var i=0; i<this.mushroomsTopping.length; i++){
+  for (var i=0; i<this.vegTopping.length; i++){
     this.cost +=20;
   }
   return this.cost;
