@@ -34,8 +34,9 @@ $(document).ready(function(){
   $("#pizza-form").submit(function(event){
     event.preventDefault();
     $("#pizza-options").hide();
-    var inputtedSize = $("select#size").val()
-    var inputtedCrust = $()
+    var inputtedSize = $("select#size").val();
+    var inputtedCrust = $("select#crust").val();
+    var 
   }
 
 });
