@@ -9,7 +9,7 @@ This is a web application where customers order diffrent sizes of pizzas with on
 * Place an order for a Pizza and see the total charge for it.
 * Have an option to order as many pizzas as they want.
 * Have an option to have the pizza delivered or not.  If delivered an alert on  how much the delivery charge will be.
-* If they want the pizza to be delivered to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
+* If they want the pizza to be delivered to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location."
 * See a checkout button that when clicked shows the total amount charged for the orders. 
 ## Setup/Installation Requirements
 * The project made was created using
@@ -17,7 +17,7 @@ This is a web application where customers order diffrent sizes of pizzas with on
 * Bootstrap front end framework
 * JQuery
 ## Known Bugs
-At the moment there are no known issues.
+At the moment the functionality is not complete but working to improve it and also add styling to the page.
 ## Technologies Used
 The project made use of Javascript prototypes and constructors.
 ## Support and contact details
